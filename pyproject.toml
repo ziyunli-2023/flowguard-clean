@@ -1,0 +1,38 @@
+[build-system]
+requires = ["setuptools>=45", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "flowguard"
+version = "0.1.0"
+description = "Quality filtering for flow-based generative models"
+authors = [{name = "FlowGuard Team"}]
+license = {text = "MIT"}
+readme = "README.md"
+requires-python = ">=3.8"
+dependencies = [
+    "torch>=1.9.0",
+    "numpy>=1.20.0",
+    "tqdm>=4.60.0",
+    "clean-fid>=0.1.35",
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=6.0",
+    "black>=21.0",
+    "isort>=5.0",
+    "flake8>=3.8",
+]
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["flowguard*"]
+
+[tool.black]
+line-length = 88
+target-version = ['py38']
+
+[tool.isort]
+profile = "black"
+line_length = 88
