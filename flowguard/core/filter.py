@@ -73,7 +73,7 @@ class FlowGuardFilter:
                 v_1[active_mask] = v_1_active
                 
                 s_k = self.scorer.compute_score(v_0, v_1, dt, current_time)
-                active_mask[s_k > self.tau] = False
+                active_mask = active_mask & ~(s_k > self.tau)
                 
                 if verbose and step % 10 == 0:
                     print(f"Step {step}: {active_mask.sum().item()}/{x_0.shape[0]} samples active")
