@@ -148,3 +148,6 @@ dmypy.json
 *.hdf5
 *.npz
 *.npy 
+
+# External dependencies
+external/ 
