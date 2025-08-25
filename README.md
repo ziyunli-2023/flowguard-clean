@@ -1,8 +1,8 @@
 # FlowGuard
 
-A clean, refactored implementation of the FlowGuard filtering algorithm for flow-based generative models.
+**📄 [Read the Paper](FlowGuard.pdf)** | **🏆 [COPA Conference](https://copa-conference.org)** | **📚 [Citation](#citation)**
 
-## Performance Comparison
+---
 
 ![Filtering Performance Comparison](images/filtering_performance_comparison_page_1.png)
 
