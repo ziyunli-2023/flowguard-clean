@@ -144,6 +144,20 @@ This implementation is based on the research paper **FlowGuard.pdf** (included i
 
 See `examples/cifar10_example.py` for a complete usage example.
 
+## Citation
+
+If you use FlowGuard in your research, please cite our paper:
+
+```bibtex
+@inproceedings{flowguard2024,
+  title={FlowGuard: Quality Filtering for Flow-Based Generative Models with Conformal Prediction},
+  author={[Author names]},
+  booktitle={Proceedings of the Conformal and Probabilistic Prediction with Applications (COPA) Conference},
+  year={2024},
+  organization={COPA}
+}
+```
+
 ## Project Structure
 
 ```
