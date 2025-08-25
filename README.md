@@ -122,7 +122,7 @@ Configuration management for all parameters.
 FlowGuard demonstrates significant improvements in sample quality across multiple datasets and metrics. The filtering performance comparison shows:
 
 ### Performance Comparison
-![Filtering Performance Comparison](filtering_performance_comparison.pdf)
+![Filtering Performance Comparison](images/filtering_performance_comparison_page_1.png)
 
 *Figure: Comprehensive comparison of FlowGuard against baseline methods across different datasets, showing improvements in FID scores, computational efficiency, and sample quality metrics.*
 
@@ -150,6 +150,8 @@ See `examples/cifar10_example.py` for a complete usage example.
 flowguard-clean/
 ├── FlowGuard.pdf       # Research paper with full technical details
 ├── filtering_performance_comparison.pdf  # Experimental results and performance comparison
+├── images/             # Visual assets for README
+│   └── filtering_performance_comparison_page_1.png
 ├── flowguard/
 │   ├── core/           # Core filtering algorithms
 │   │   ├── filter.py   # Main FlowGuardFilter class
